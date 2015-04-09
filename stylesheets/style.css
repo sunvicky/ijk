@@ -1,0 +1,1506 @@
+/* line 5, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 6, ../sass/_main.scss */
+body {
+  background: #f8faf3;
+}
+
+@-moz-keyframes ballfire {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 45px;
+  }
+}
+@-webkit-keyframes ballfire {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 45px;
+  }
+}
+@keyframes ballfire {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 45px;
+  }
+}
+@-moz-keyframes ballmove {
+  from {
+    top: 65px;
+  }
+  to {
+    top: 95px;
+  }
+}
+@-webkit-keyframes ballmove {
+  from {
+    top: 65px;
+  }
+  to {
+    top: 95px;
+  }
+}
+@keyframes ballmove {
+  from {
+    top: 65px;
+  }
+  to {
+    top: 95px;
+  }
+}
+@-moz-keyframes balldistance {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 60px;
+  }
+}
+@-webkit-keyframes balldistance {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 60px;
+  }
+}
+@keyframes balldistance {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 60px;
+  }
+}
+@-moz-keyframes ballbg1 {
+  from {
+    top: 25px;
+  }
+  to {
+    top: 35px;
+  }
+}
+@-webkit-keyframes ballbg1 {
+  from {
+    top: 25px;
+  }
+  to {
+    top: 35px;
+  }
+}
+@keyframes ballbg1 {
+  from {
+    top: 25px;
+  }
+  to {
+    top: 35px;
+  }
+}
+@-moz-keyframes ballbg2 {
+  from {
+    top: 115px;
+  }
+  to {
+    top: 125px;
+  }
+}
+@-webkit-keyframes ballbg2 {
+  from {
+    top: 115px;
+  }
+  to {
+    top: 125px;
+  }
+}
+@keyframes ballbg2 {
+  from {
+    top: 115px;
+  }
+  to {
+    top: 125px;
+  }
+}
+@-moz-keyframes movecurve {
+  from {
+    top: 150px;
+  }
+  to {
+    top: 80px;
+  }
+}
+@-webkit-keyframes movecurve {
+  from {
+    top: 150px;
+  }
+  to {
+    top: 80px;
+  }
+}
+@keyframes movecurve {
+  from {
+    top: 150px;
+  }
+  to {
+    top: 80px;
+  }
+}
+/* line 33, ../sass/_main.scss */
+header {
+  width: 100%;
+  height: 66px;
+  background: #6f9f00;
+  border-bottom: 3px solid #bed299;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif;
+}
+/* line 39, ../sass/_main.scss */
+header .clearfix:before, header .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 43, ../sass/_main.scss */
+header .clearfix:after {
+  clear: both;
+}
+/* line 46, ../sass/_main.scss */
+header .clearfix {
+  *zoom: 1;
+}
+/* line 49, ../sass/_main.scss */
+header .nav {
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 55, ../sass/_main.scss */
+header .nav .logo {
+  float: left;
+  padding: 16.5px 0px;
+}
+/* line 59, ../sass/_main.scss */
+header .nav .logo img {
+  width: 119px;
+  height: 33px;
+  vertical-align: middle;
+}
+/* line 66, ../sass/_main.scss */
+header .nav .navContent {
+  cursor: pointer;
+  float: left;
+  width: 505px;
+  height: 100%;
+  text-align: center;
+}
+/* line 73, ../sass/_main.scss */
+header .nav .navContent li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 17px;
+  margin: 18px 1px;
+  padding: 6px 13px;
+  border-radius: 20px;
+}
+/* line 79, ../sass/_main.scss */
+header .nav .navContent li:hover, header .nav .navContent li:focus {
+  background: #638B15;
+}
+/* line 82, ../sass/_main.scss */
+header .nav .navContent li a {
+  color: #fff;
+}
+/* line 86, ../sass/_main.scss */
+header .nav .navContent .active {
+  background: #507110;
+}
+/* line 88, ../sass/_main.scss */
+header .nav .navContent .active:hover {
+  background: #507110;
+}
+/* line 93, ../sass/_main.scss */
+header .nav .email {
+  cursor: pointer;
+  float: right;
+  padding: 25px 8px;
+  position: relative;
+}
+/* line 98, ../sass/_main.scss */
+header .nav .email .point {
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #f4aa28;
+  position: absolute;
+  top: 22px;
+  left: 29px;
+}
+/* line 108, ../sass/_main.scss */
+header .nav .user {
+  width: 176px;
+  height: 44px;
+  margin-top: 12px;
+  background: #c0d29e;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  float: right;
+  position: relative;
+}
+/* line 116, ../sass/_main.scss */
+header .nav .user img {
+  float: left;
+  width: 36px;
+  height: 36px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 4px;
+}
+/* line 123, ../sass/_main.scss */
+header .nav .user .userName {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-left: 4px;
+  float: left;
+  color: #709e18;
+}
+/* line 130, ../sass/_main.scss */
+header .nav .user .userName:hover {
+  color: #666;
+}
+/* line 133, ../sass/_main.scss */
+header .nav .user .userName #userChoose {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 7px 0 7px;
+  border-color: #6f9f00 transparent transparent transparent;
+}
+/* line 144, ../sass/_main.scss */
+header .nav .user .userMore {
+  cursor: pointer;
+  background: #fff;
+  width: 120px;
+  height: 140px;
+  padding: 9px 15px;
+  position: absolute;
+  top: 44px;
+  left: 13px;
+  display: none;
+}
+/* line 154, ../sass/_main.scss */
+header .nav .user .userMore li {
+  font-size: 12px;
+  padding: 10px 25px;
+  height: 18px;
+  text-align: left;
+  line-height: 18px;
+}
+/* line 160, ../sass/_main.scss */
+header .nav .user .userMore li a {
+  color: #666;
+}
+/* line 162, ../sass/_main.scss */
+header .nav .user .userMore li a:hover {
+  color: #709e18;
+}
+
+/* line 173, ../sass/_main.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 177, ../sass/_main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 180, ../sass/_main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 183, ../sass/_main.scss */
+.content {
+  width: 1006px;
+  margin: 30px auto;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif;
+  border-radius: 10px;
+  color: #666;
+}
+/* line 190, ../sass/_main.scss */
+.content .content-data {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #B8B8B8;
+  width: 620px;
+  height: 1104px;
+  padding: 20px;
+  float: left;
+  background: #fff;
+  color: #666;
+}
+/* line 200, ../sass/_main.scss */
+.content .content-data h3 {
+  text-align: center;
+  font-size: 22px;
+}
+/* line 204, ../sass/_main.scss */
+.content .content-data .data-ball {
+  width: 620px;
+  height: 240px;
+  margin-bottom: 20px;
+  position: relative;
+}
+/* line 209, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  background: #f09f11;
+  top: 30px;
+  left: 65px;
+  z-index: 1;
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ballfire 3.5s linear 0s infinite alternate;
+  -webkit-animation: ballfire 3.5s linear 0s infinite alternate;
+  animation: ballfire 3.5s linear 0s infinite alternate;
+}
+/* line 220, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire .ball-fire-inset {
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  background: #f1a217;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* line 227, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire .ball-fire-inset .ball-fire-inset-inset {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  background: #f3a722;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 3;
+}
+/* line 234, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire .ball-fire-inset .ball-fire-inset-inset p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 40px;
+}
+/* line 240, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire .ball-fire-inset .ball-fire-inset-inset p span {
+  font-size: 28px;
+}
+/* line 246, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire:hover, .content .content-data .data-ball .ball-fire:focus {
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+/* line 248, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire:hover .ball-fire-inset, .content .content-data .data-ball .ball-fire:focus .ball-fire-inset {
+  background: #fff;
+}
+/* line 250, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire:hover .ball-fire-inset .ball-fire-inset-inset, .content .content-data .data-ball .ball-fire:focus .ball-fire-inset .ball-fire-inset-inset {
+  background: #fff;
+}
+/* line 252, ../sass/_main.scss */
+.content .content-data .data-ball .ball-fire:hover .ball-fire-inset .ball-fire-inset-inset p, .content .content-data .data-ball .ball-fire:focus .ball-fire-inset .ball-fire-inset-inset p {
+  color: #f09f11;
+}
+/* line 259, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move {
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  background: #7dbe0f;
+  top: 80px;
+  left: 260px;
+  z-index: 1;
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ballmove 4s linear 0s infinite alternate;
+  -webkit-animation: ballmove 4s linear 0s infinite alternate;
+  animation: ballmove 4s linear 0s infinite alternate;
+}
+/* line 270, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move .ball-move-inset {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  background: #81c117;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* line 277, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move .ball-move-inset .ball-move-inset-inset {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  background: #85c51e;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 3;
+}
+/* line 284, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move .ball-move-inset .ball-move-inset-inset p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 35px;
+}
+/* line 290, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move .ball-move-inset .ball-move-inset-inset p span {
+  font-size: 28px;
+}
+/* line 296, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move:hover, .content .content-data .data-ball .ball-move:focus {
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+/* line 298, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move:hover .ball-move-inset, .content .content-data .data-ball .ball-move:focus .ball-move-inset {
+  background: #fff;
+}
+/* line 300, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move:hover .ball-move-inset .ball-move-inset-inset, .content .content-data .data-ball .ball-move:focus .ball-move-inset .ball-move-inset-inset {
+  background: #fff;
+}
+/* line 302, ../sass/_main.scss */
+.content .content-data .data-ball .ball-move:hover .ball-move-inset .ball-move-inset-inset p, .content .content-data .data-ball .ball-move:focus .ball-move-inset .ball-move-inset-inset p {
+  color: #7dbe0f;
+}
+/* line 309, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  background: #2ba8d7;
+  left: 450px;
+  top: 65px;
+  z-index: 1;
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ballmove 3s linear 0s infinite alternate;
+  -webkit-animation: ballmove 3s linear 0s infinite alternate;
+  animation: ballmove 3s linear 0s infinite alternate;
+}
+/* line 320, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance .ball-distance-inset {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background: #32addb;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* line 327, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance .ball-distance-inset .ball-distance-inset-inset {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: rgba(120, 188, 255, 0.32);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 3;
+}
+/* line 334, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance .ball-distance-inset .ball-distance-inset-inset p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 40px;
+}
+/* line 340, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance .ball-distance-inset .ball-distance-inset-inset p span {
+  font-size: 28px;
+}
+/* line 346, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance:hover, .content .content-data .data-ball .ball-distance:focus {
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+/* line 348, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance:hover .ball-distance-inset, .content .content-data .data-ball .ball-distance:focus .ball-distance-inset {
+  background: #fff;
+}
+/* line 350, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance:hover .ball-distance-inset .ball-distance-inset-inset, .content .content-data .data-ball .ball-distance:focus .ball-distance-inset .ball-distance-inset-inset {
+  background: #fff;
+}
+/* line 352, ../sass/_main.scss */
+.content .content-data .data-ball .ball-distance:hover .ball-distance-inset .ball-distance-inset-inset p, .content .content-data .data-ball .ball-distance:focus .ball-distance-inset .ball-distance-inset-inset p {
+  color: #2ba8d7;
+}
+/* line 367, ../sass/_main.scss */
+.content .content-data .data-ball .ball-bg1 {
+  width: 70px;
+  height: 70px;
+  background: #f3f3f3;
+  position: absolute;
+  z-index: 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 30px;
+  left: 220px;
+  -moz-animation: ballbg1 2.5s linear 1s infinite alternate;
+  -webkit-animation: ballbg1 2.5s linear 1s infinite alternate;
+  animation: ballbg1 2.5s linear 1s infinite alternate;
+}
+/* line 373, ../sass/_main.scss */
+.content .content-data .data-ball .ball-bg2 {
+  width: 70px;
+  height: 70px;
+  background: #f3f3f3;
+  position: absolute;
+  z-index: 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 120px;
+  left: 400px;
+  -moz-animation: ballbg2 2.5s linear 1s infinite alternate;
+  -webkit-animation: ballbg2 2.5s linear 1s infinite alternate;
+  animation: ballbg2 2.5s linear 1s infinite alternate;
+}
+/* line 380, ../sass/_main.scss */
+.content .content-data .data-device {
+  width: 620px;
+  height: 415px;
+  margin-bottom: 25px;
+  -moz-box-shadow: 0px 0px 10px #d4d4d4;
+  -webkit-box-shadow: 0px 0px 10px #d4d4d4;
+  box-shadow: 0px 0px 10px #d4d4d4;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 386, ../sass/_main.scss */
+.content .content-data .data-device .device-title {
+  cursor: pointer;
+  height: 35px;
+}
+/* line 389, ../sass/_main.scss */
+.content .content-data .data-device .device-title .title1 {
+  width: 292px;
+  height: 17px;
+  color: #000;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+  padding: 9px;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+/* line 400, ../sass/_main.scss */
+.content .content-data .data-device .device-title .title2 {
+  width: 292px;
+  height: 17px;
+  color: #000;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+  padding: 9px;
+  -moz-border-radius-topright: 6px;
+  -webkit-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+/* line 411, ../sass/_main.scss */
+.content .content-data .data-device .device-title .active {
+  color: #fff;
+  background: #85c51f;
+}
+/* line 417, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle {
+  width: 309px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+}
+/* line 422, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .balabala {
+  transition: 0.5s, cubic-bezier(1, 3, 1, 3);
+}
+/* line 425, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .balabala:hover {
+  transform: matrix(1.1, 0, 0, 1.1, -14.45, -11.5);
+}
+/* line 429, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .chart-circle-title {
+  width: 293px;
+  height: 33px;
+  position: absolute;
+  top: 122px;
+}
+/* line 434, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .chart-circle-title h4 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+/* line 440, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .chart-circle-title p {
+  text-align: center;
+  font-size: 14px;
+}
+/* line 443, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .chart-circle-title p span {
+  font-size: 16px;
+  color: #f5b036;
+}
+/* line 449, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .circle-label1 {
+  font-size: 12px;
+  position: absolute;
+  top: 190px;
+  left: 3px;
+}
+/* line 455, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .circle-label2 {
+  font-size: 12px;
+  position: absolute;
+  top: 48px;
+  left: 216px;
+}
+/* line 461, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-circle .circle-label3 {
+  font-size: 12px;
+  position: absolute;
+  top: 119px;
+  left: 245px;
+}
+/* line 468, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar {
+  width: 306px;
+  height: 210px;
+  padding-top: 40px;
+  float: right;
+  position: relative;
+}
+/* line 474, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-title {
+  font-size: 14px;
+  padding-left: 83px;
+}
+/* line 478, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content {
+  height: 200px;
+  position: relative;
+}
+/* line 481, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum {
+  width: 189px;
+  height: 100px;
+  position: absolute;
+  top: 39px;
+  left: 59px;
+  font-size: 13px;
+}
+/* line 488, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum .columnarNum1 {
+  position: absolute;
+  top: 72px;
+  left: 13px;
+}
+/* line 493, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum .columnarNum2 {
+  position: absolute;
+  top: 79px;
+  left: 54px;
+}
+/* line 498, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum .columnarNum3 {
+  position: absolute;
+  top: 82px;
+  left: 94px;
+}
+/* line 503, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum .columnarNum4 {
+  position: absolute;
+  top: 14px;
+  left: 122px;
+}
+/* line 508, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarNum .columnarNum5 {
+  position: absolute;
+  top: 82px;
+  left: 168px;
+}
+/* line 514, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarData {
+  height: 40px;
+  width: 189px;
+  border-top: 1px solid #ECECEC;
+  position: absolute;
+  top: 140px;
+  right: 50px;
+}
+/* line 521, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-other .chart-columnar .columnar-content .columnarData span {
+  font-size: 12px;
+}
+/* line 528, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile {
+  display: none;
+}
+/* line 530, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle {
+  width: 309px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+}
+/* line 535, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .balabala {
+  transition: 0.5s, cubic-bezier(1, 3, 1, 3);
+}
+/* line 538, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .balabala:hover {
+  transform: matrix(1.1, 0, 0, 1.1, -14.45, -11.5);
+}
+/* line 542, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .chart-circle-title {
+  width: 293px;
+  height: 33px;
+  position: absolute;
+  top: 122px;
+}
+/* line 547, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .chart-circle-title h4 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+/* line 553, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .chart-circle-title p {
+  text-align: center;
+  font-size: 14px;
+}
+/* line 556, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .chart-circle-title p span {
+  font-size: 16px;
+  color: #f5b036;
+}
+/* line 562, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .circle-label1 {
+  font-size: 12px;
+  position: absolute;
+  top: 190px;
+  left: 3px;
+}
+/* line 568, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .circle-label2 {
+  font-size: 12px;
+  position: absolute;
+  top: 48px;
+  left: 216px;
+}
+/* line 574, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-circle .circle-label3 {
+  font-size: 12px;
+  position: absolute;
+  top: 119px;
+  left: 245px;
+}
+/* line 581, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar {
+  width: 306px;
+  height: 210px;
+  padding-top: 40px;
+  float: right;
+  position: relative;
+}
+/* line 587, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-title {
+  font-size: 14px;
+  padding-left: 83px;
+}
+/* line 591, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content {
+  height: 200px;
+  position: relative;
+}
+/* line 594, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarNum {
+  width: 189px;
+  height: 100px;
+  position: absolute;
+  top: 39px;
+  left: 59px;
+  font-size: 13px;
+}
+/* line 601, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarNum .columnarNum1 {
+  position: absolute;
+  top: 72px;
+  left: 17px;
+}
+/* line 606, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarNum .columnarNum2 {
+  position: absolute;
+  top: 63px;
+  left: 62px;
+}
+/* line 611, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarNum .columnarNum3 {
+  position: absolute;
+  top: 13px;
+  left: 109px;
+}
+/* line 616, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarNum .columnarNum4 {
+  position: absolute;
+  top: 78px;
+  left: 158px;
+}
+/* line 622, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarData {
+  height: 40px;
+  width: 189px;
+  border-top: 1px solid #ECECEC;
+  position: absolute;
+  top: 140px;
+  right: 50px;
+}
+/* line 629, ../sass/_main.scss */
+.content .content-data .data-device .device-chart-mobile .chart-columnar .columnar-content .columnarData span {
+  font-size: 12px;
+  padding-right: 9px;
+}
+/* line 637, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata {
+  width: 618px;
+  height: 80px;
+  margin-top: 50px;
+}
+/* line 641, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon {
+  width: 163px;
+  height: 60px;
+  padding-left: 42px;
+  float: left;
+}
+/* line 646, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon .icon-img {
+  float: left;
+}
+/* line 648, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon .icon-img img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #F3F3F3;
+}
+/* line 653, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon .icon-font {
+  margin-top: 15px;
+  margin-left: 12px;
+  float: left;
+}
+/* line 657, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon .icon-font p {
+  line-height: 18px;
+}
+/* line 659, ../sass/_main.scss */
+.content .content-data .data-device .device-alldata .icon .icon-font p span {
+  font-size: 18px;
+  color: #f4aa28;
+}
+/* line 668, ../sass/_main.scss */
+.content .content-data .data-curve {
+  width: 620px;
+  height: 340px;
+}
+/* line 671, ../sass/_main.scss */
+.content .content-data .data-curve ul {
+  z-index: 2;
+  width: 66px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+/* line 678, ../sass/_main.scss */
+.content .content-data .data-curve ul li {
+  cursor: pointer;
+  width: 46px;
+  height: 14px;
+  padding: 9px;
+  margin-bottom: 10px;
+  border: 1px solid #f4aa28;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  background: #f4aa28;
+  color: #fff;
+}
+/* line 692, ../sass/_main.scss */
+.content .content-data .data-curve ul .active {
+  background: #fff;
+  color: #f4aa28;
+  border: 1px solid #ECECEC;
+  border-right-color: #fff;
+}
+/* line 699, ../sass/_main.scss */
+.content .content-data .data-curve .curve {
+  z-index: 1;
+  width: 546px;
+  height: 336px;
+  position: relative;
+  left: -1px;
+  border: 1px solid #ECECEC;
+  float: left;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+/* line 710, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-title {
+  cursor: pointer;
+  height: 24px;
+  padding: 5px 150px;
+}
+/* line 714, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-title .active {
+  color: #fff;
+  background: #85c51f;
+  position: relative;
+}
+/* line 718, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-title .active span {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 6px 0 6px;
+  border-color: #85c51f transparent transparent transparent;
+  position: absolute;
+  left: 20px;
+  top: 23px;
+}
+/* line 729, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-title div {
+  width: 50px;
+  height: 14px;
+  padding: 5px 0;
+  margin-right: 27px;
+  float: left;
+  color: #666;
+  background: #f3f3f3;
+  text-align: center;
+  font-size: 14px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 742, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content {
+  height: 300px;
+}
+/* line 744, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content p {
+  font-size: 24px;
+  color: #FFA300;
+  text-align: center;
+  position: relative;
+  top: 160px;
+  -moz-animation: movecurve 3s linear 0s infinite alternate;
+  -webkit-animation: movecurve 3s linear 0s infinite alternate;
+  animation: movecurve 3s linear 0s infinite alternate;
+}
+/* line 752, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 46px;
+  left: 214px;
+}
+/* line 760, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line {
+  width: 424px;
+  height: 180px;
+  position: absolute;
+  top: 101px;
+  left: 61px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+/* line 768, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-data {
+  font-size: 12px;
+  color: #000;
+  position: absolute;
+  top: -22px;
+  left: -25px;
+}
+/* line 774, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-data div {
+  padding-top: 14px;
+}
+/* line 778, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-date {
+  position: absolute;
+  top: 184px;
+  left: 6px;
+  font-size: 12px;
+  color: #000;
+}
+/* line 784, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-date span {
+  padding: 86px;
+}
+/* line 788, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-mark {
+  position: absolute;
+  top: 206px;
+  left: 54px;
+  font-size: 12px;
+}
+/* line 793, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-mark .mark1 {
+  padding-right: 33px;
+  color: #1f77b4;
+}
+/* line 797, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-mark .mark2 {
+  padding-right: 33px;
+  color: #aec7e8;
+}
+/* line 801, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-mark .mark3 {
+  padding-right: 32px;
+  color: #98df8a;
+}
+/* line 805, ../sass/_main.scss */
+.content .content-data .data-curve .curve .curve-content .blood-pressure-line .blood-pressure-mark .mark4 {
+  padding-right: 20px;
+  color: #ff7f0e;
+}
+/* line 815, ../sass/_main.scss */
+.content .content-more {
+  width: 310px;
+  padding-bottom: 30px;
+  margin-left: 30px;
+  float: left;
+}
+/* line 821, ../sass/_main.scss */
+.content .content-more .rank {
+  width: 290px;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 4px #d4d4d4;
+  -webkit-box-shadow: 0px 0px 4px #d4d4d4;
+  box-shadow: 0px 0px 4px #d4d4d4;
+}
+/* line 828, ../sass/_main.scss */
+.content .content-more .rank h2 {
+  color: #f4aa28;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 8px 0;
+}
+/* line 835, ../sass/_main.scss */
+.content .content-more .rank h2 span {
+  width: 26px;
+  height: 22px;
+  margin-right: 5px;
+  display: inline-block;
+}
+/* line 840, ../sass/_main.scss */
+.content .content-more .rank h2 span img {
+  vertical-align: bottom;
+}
+/* line 845, ../sass/_main.scss */
+.content .content-more .rank ul {
+  margin-left: 24px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* line 849, ../sass/_main.scss */
+.content .content-more .rank ul li {
+  width: 52px;
+  height: 30px;
+  margin-right: 6px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  text-align: center;
+  vertical-align: middle;
+  background: #f3f3f3;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 860, ../sass/_main.scss */
+.content .content-more .rank ul .active {
+  background: #7ebf12;
+  color: #fff;
+}
+/* line 865, ../sass/_main.scss */
+.content .content-more .rank .rank-users {
+  display: none;
+  width: 290px;
+  height: 188px;
+  margin-top: 20px;
+}
+/* line 870, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content {
+  height: 47px;
+}
+/* line 872, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rankOfUsers {
+  width: 30px;
+  height: 32px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 30px;
+  color: #fb742a;
+  background: url(../image/medal.png) no-repeat -3px -1px;
+  float: left;
+}
+/* line 885, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content div {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 890, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content div img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* line 896, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rank-users-km {
+  float: left;
+  width: 180px;
+  position: relative;
+}
+/* line 900, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rank-users-km .rankOfName {
+  width: 134px;
+  height: 13px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+}
+/* line 907, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rank-users-km .rankOfName p {
+  float: right;
+  font-size: 12px;
+  text-align: right;
+  color: #9dd542;
+  display: inline-block;
+}
+/* line 915, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rank-users-km .rankOfBarOn {
+  position: absolute;
+  top: 19px;
+  left: 0px;
+  z-index: 2;
+  background: #2aa8d7;
+  width: 50%;
+  height: 10px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 926, ../sass/_main.scss */
+.content .content-more .rank .rank-users .rank-users-content .rank-users-km .rankOfBarUnder {
+  position: relative;
+  z-index: 1;
+  width: 134px;
+  height: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #c6e5f1;
+}
+/* line 938, ../sass/_main.scss */
+.content .content-more .score {
+  background: #fff;
+  width: 310px;
+  height: 568px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 4px #d4d4d4;
+  -webkit-box-shadow: 0px 0px 4px #d4d4d4;
+  box-shadow: 0px 0px 4px #d4d4d4;
+}
+/* line 944, ../sass/_main.scss */
+.content .content-more .score .score-title {
+  width: 310px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 18px;
+  color: #85c51f;
+}
+/* line 952, ../sass/_main.scss */
+.content .content-more .score .score-rate {
+  width: 298px;
+  height: 160px;
+  margin: 6px;
+  background: #deeeeb;
+  position: relative;
+}
+/* line 958, ../sass/_main.scss */
+.content .content-more .score .score-rate h3 {
+  position: absolute;
+  top: 49px;
+  color: #f4aa28;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+/* line 966, ../sass/_main.scss */
+.content .content-more .score .score-rate h4 {
+  position: absolute;
+  width: 100%;
+  top: 86px;
+  color: #11a385;
+  text-align: center;
+}
+/* line 973, ../sass/_main.scss */
+.content .content-more .score .score-rate .bala {
+  transition: 0.5s, cubic-bezier(1, 3, 1, 3);
+}
+/* line 976, ../sass/_main.scss */
+.content .content-more .score .score-rate .bala:hover {
+  transform: matrix(1.1, 0, 0, 1.1, -14.45, -11.5);
+}
+/* line 980, ../sass/_main.scss */
+.content .content-more .score .score-bars {
+  width: 298px;
+  height: 320px;
+  margin-top: 15px;
+}
+/* line 984, ../sass/_main.scss */
+.content .content-more .score .score-bars .bar {
+  width: 298px;
+  height: 14px;
+  padding: 9px 0;
+}
+/* line 988, ../sass/_main.scss */
+.content .content-more .score .score-bars .bar .bar-left {
+  width: 60px;
+  height: 14px;
+  margin-right: 7px;
+  margin-left: 4px;
+  font-size: 14px;
+  text-align: right;
+  display: inline-block;
+}
+/* line 997, ../sass/_main.scss */
+.content .content-more .score .score-bars .bar .bar-null {
+  width: 140px;
+  height: 10px;
+  margin-top: 3px;
+  background: #F3F3F3;
+  display: inline-block;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 1005, ../sass/_main.scss */
+.content .content-more .score .score-bars .bar .bar-right {
+  width: 70px;
+  height: 14px;
+  font-size: 14px;
+  margin-left: 7px;
+  text-align: left;
+  display: inline-block;
+}
+/* line 1016, ../sass/_main.scss */
+.content .content-more .tips {
+  width: 295px;
+  height: 379px;
+  margin-top: 55px;
+  padding-left: 15px;
+}
+/* line 1021, ../sass/_main.scss */
+.content .content-more .tips h4 {
+  color: #79a427;
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+/* line 1026, ../sass/_main.scss */
+.content .content-more .tips p {
+  padding: 8px 0;
+  font-size: 14.2px;
+  line-height: 22px;
+}
+/* line 1030, ../sass/_main.scss */
+.content .content-more .tips p a {
+  color: #85c51f;
+}
+
+/* line 1037, ../sass/_main.scss */
+footer {
+  width: 100%;
+  height: 85px;
+  padding-top: 10px;
+  border-top: 5px solid #709e18;
+  background: #c9d9b3;
+}
+/* line 1043, ../sass/_main.scss */
+footer p {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px 0;
+  color: #666;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+/* line 1049, ../sass/_main.scss */
+footer p a {
+  color: #709e18;
+  font-size: 16px;
+  padding: 2px 4px;
+}
